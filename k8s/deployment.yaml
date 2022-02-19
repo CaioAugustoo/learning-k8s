@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: ReplicaSet
+kind: Deployment
 metadata: 
   name: test
   labels: 
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: test
-          image: caioaugusto/test
+          image: caioaugusto/won_games
