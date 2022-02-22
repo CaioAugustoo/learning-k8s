@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: test
-  replicas: 20
+  replicas: 5
   template:
     metadata:
       labels:
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: test
-          image: caioaugusto/won_games
+          image: caioaugusto/test
